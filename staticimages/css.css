@@ -1,0 +1,9 @@
+*{padding:0;margin:0}
+.content{padding:0px;position: absolute;top:0px;bottom: 0px;left:0px;right:0px;overflow: hidden;height: 100%;width:100%}
+.content .content-l{position: absolute;top:0px;left:0px;height: 500%;width:100%}
+.content .item{height: 20%;position: relative;}
+.content .item p{font-size:30px;height:30px;width:100%;line-height: 30px;position: absolute;top:50%;margin-top:-15px;text-align: center;}
+.left-point{position: fixed;top:0;right:10px;width:10px;height:100%;z-index: 100;}
+.left-point ul{overflow: hidden;margin-top: -145px;top: 50%;position: absolute;padding: 0px;}
+.left-point li{cursor:pointer;width: 8px;height: 8px;margin-top: 50px;background-color: #019875;border-radius: 100%;list-style: none;}
+.left-point li.active{background-color: #fff;border: 1px solid #019875;}
